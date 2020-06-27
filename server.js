@@ -23,8 +23,6 @@ server.get("/", function(req, res) {
         recipesControl.push(recipes[i])
     }
 
-    console.log("recipesControl.length")
-
     return res.render("home", {recipeData: recipesControl});
 })  
 
