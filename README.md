@@ -8,7 +8,7 @@
 
 [x] Use os dados das receitas contidos no arquivo data.js para a página de listagem de receitas e para a home.
 
-[ ] Na home, liste as 6 primeiras receitas, não é necessário agora sabermos sobre as receitas mais acessadas.
+[x] Na home, liste as 6 primeiras receitas, não é necessário agora sabermos sobre as receitas mais acessadas.
 
 [ ] Na listagem, liste todas receitas do arquivo.
  

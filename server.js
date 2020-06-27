@@ -16,7 +16,16 @@ nunjucks.configure("views", {
 })
 
 server.get("/", function(req, res) {
-    return res.render("home", {recipes});
+
+    let recipesControl = []
+
+    for(let i = 0; i < 6; i++) {
+        recipesControl.push(recipes[i])
+    }
+
+    console.log("recipesControl.length")
+
+    return res.render("home", {recipeData: recipesControl});
 })  
 
 server.get("/recipes", function(req, res) {
