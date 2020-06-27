@@ -6,11 +6,27 @@ Dessa vez vamos desenvolver o Backend do Foodfy (o site de uma empresa de receit
 
 ![](public/showProject.gif)
 
+ ## Tecnologias e ferramentas:
+
+ <ul>
+  <li>Javascript</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Node.js</li>
+  <li>Nodemon</li>
+  <li>Express</li>
+  <li>Nunjucks</li>
+ </ul>
+ 
 ## Rodando o projeto:
 
 1 - Clone o projeto e o abra utilizando seu editor preferido.
 
-2 - Abra o arquivo index.html em qualquer navegador e curta o projeto.
+2 - Rode um `npm install` na pasta do projeto.
+
+3 - Rode um `npm start` para rodar o projeto.
+
+4 - Abra o projeto em `localhost:8080`
 
 ## Arquivo de dados
 
@@ -22,7 +38,7 @@ Dessa vez vamos desenvolver o Backend do Foodfy (o site de uma empresa de receit
 
 [x] Na home, liste as 6 primeiras receitas, não é necessário agora sabermos sobre as receitas mais acessadas.
 
-[ ] Na listagem, liste todas receitas do arquivo.
+[x] Na listagem, liste todas receitas do arquivo.
  
  Obs.: Você precisará converter seu projeto em um projeto Node.js usando Nunjucks para mostrar cada página.
 
