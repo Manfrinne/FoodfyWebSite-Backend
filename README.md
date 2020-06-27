@@ -1,4 +1,16 @@
+# Projeto Bootcamp Rocketseat - Backend Foodfy
 
+> Nesse desafio vamos refatorar o Foodfy
+
+Dessa vez vamos desenvolver o Backend do Foodfy (o site de uma empresa de receitas). 
+
+![](public/showProject.gif)
+
+## Rodando o projeto:
+
+1 - Clone o projeto e o abra utilizando seu editor preferido.
+
+2 - Abra o arquivo index.html em qualquer navegador e curta o projeto.
 
 ## Arquivo de dados
 
@@ -34,3 +46,12 @@ server.get("/recipes/:index", function (req, res) {
 ## Ação de mostrar/esconder
 
 [ ] Dentro da página do detalhe da receita, em cada seção "Ingredientes", "Modo de preparo" e "Informações adicionais" há um botão Mostrar ou Esconder que ao ser clicado deve mostrar ou esconder o texto abaixo do título baseado em seu estado de visibilidade.
+
+## Como contribuir:
+
+-  Faça um fork do projeto;
+-  Crie uma nova branch, exemplo: `git checkout -b my-feature`;
+-  Commit as modificações, exemplo: `git commit -m 'feat: My new feature'`;
+-  Faça um push para a sua branch: `git push origin my-feature`.
+
+Criado por Manfrinne Ferreira [Contato](https://www.linkedin.com/in/manfrinne-ferreira-6033121a7/)
