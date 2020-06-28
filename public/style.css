@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 html, body {
+    height: 100%;
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -122,17 +123,15 @@ h2 {
     margin-bottom: 10px;
 }
 
-
-#footer {
+.footer {
     border-top: 2px solid rgb(214, 178, 178);
 
-    padding: 32px;
     background: #EEEEEE;
     font-size: 14px;
     color: #999999;
     text-align: center;
 
-    bottom: 0px;
+    height: 50px;
 }
 
 /* Sobre-HTML */
@@ -243,6 +242,7 @@ h2 {
 
 /* Unique Recipe */
 
+
 .uniq_img {
     width: 940px;
     height: 280px;
@@ -277,7 +277,7 @@ h2 {
 
 .uniq_recipe_content {
     width: 940px;
-    height: 280px;
+    height: 100%;
     margin: 0 auto;
 }
 
