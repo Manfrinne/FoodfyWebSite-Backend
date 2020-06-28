@@ -44,20 +44,22 @@ Dessa vez vamos desenvolver o Backend do Foodfy (o site de uma empresa de receit
 
  ## Detalhe da receita
 
-[ ] Ao clicar em uma receita agora o usuário deve ser redirecionado para uma nova página contendo todas informações da receita como ingredientes, modo de preparo e informações adicionais (todas essas informações estão contidas no arquivo data.js).
+[x] Ao clicar em uma receita agora o usuário deve ser redirecionado para uma nova página contendo todas informações da receita como ingredientes, modo de preparo e informações adicionais (todas essas informações estão contidas no arquivo data.js).
 
-[ ] Na página de listagem não é mais necessário abrir o modal como tínhamos no desafio anterior do Foodfy.
+[x] Na página de listagem não é mais necessário abrir o modal como tínhamos no desafio anterior do Foodfy.
 
 Obs.: A página do detalhe da receita precisa buscar no arquivo data.js apenas a receita desejada pelo usuário, por isso você usará de parâmetros na rota dessa página, por exemplo: http://localhost:3000/recipes/3, nesse caso estaríamos acessando os detalhes da receita com índice 3 no array de receitas (recipes[3]).
 
 Para obter um ID da receita através da URL no Node.js você vai usar conforme o exemplo:
 
+```js
 server.get("/recipes/:index", function (req, res) {
   const recipes = [...]; // Array de receitas carregadas do data.js
   const recipeIndex = req.params.index;
 
   console.log(receipts[recipeIndex]);
 })
+```
 
 ## Ação de mostrar/esconder
 

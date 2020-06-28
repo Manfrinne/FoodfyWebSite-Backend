@@ -27,8 +27,19 @@ server.get("/", function(req, res) {
 })  
 
 server.get("/recipes", function(req, res) {
-
+ 
     return res.render("recipes", {recipes})
+})
+
+server.get("/recipes/:index", function(req, res) {
+
+    const { index: recipeIndex } = req.params
+
+    const recipe = recipes[recipeIndex]
+
+    if (!recipe) return res.send("RECIPE NOT FOUND!")
+
+    return res.render("recipe", {recipe})
 })
 
 server.get("/about", function(req, res) {
