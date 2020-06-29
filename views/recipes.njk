@@ -14,16 +14,16 @@
 <section class="cards">
 
     {% for recipe in recipes %}
-        <div class="card" id="{{recipe.title}}" itemid="1">
+        <div class="card" id="{{recipe.title}}" number="{{recipe.number}}">
             <div class="card__image-container">
                 <img src="{{recipe.image}}" alt="Image {{recipe.title}}">
             </div>
             
             <div class="plate-name">
-                <h5 id="plate1">{{recipe.title}}</h5>
+                <h5>{{recipe.title}}</h5>
             </div>
             <div class="cooker-name">
-                <p id="cooker1">{{recipe.author}}</p>
+                <p>{{recipe.author}}</p>
             </div> 
         </div>
     {% endfor %}

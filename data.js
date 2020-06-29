@@ -2,6 +2,7 @@ module.exports = [
     {
       image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/burger.png',
       title: 'Triplo bacon burger',
+      number: '0',
       author: 'Jorge Relato',
       ingredients: [
         '3 kg de carne moída (escolha uma carne magra e macia)',
@@ -25,6 +26,7 @@ module.exports = [
     {
       image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/pizza.png',
       title: 'Pizza 4 estações',
+      number: '1',
       author: 'Fabiana Melo',
       ingredients: [
         '1 xícara (chá) de leite',
@@ -52,6 +54,7 @@ module.exports = [
     {
       image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/asinha.png',
       title: 'Asinhas de frango ao barbecue',
+      number: '2',
       author: 'Vania Steroski',
       ingredients: [
         '12 encontros de asinha de galinha, temperados a gosto',
@@ -69,6 +72,7 @@ module.exports = [
     {
       image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/lasanha.png',
       title: "Lasanha mac n' cheese",
+      number: '3',
       author: 'Juliano Vieira',
       ingredients: [
         'massa pronta de lasanha',
@@ -89,6 +93,7 @@ module.exports = [
     {
       image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/macarrao.png',
       title: 'Espaguete ao alho',
+      number: '4',
       author: 'Júlia Kinoto',
       ingredients: [
         '1 pacote de macarrão 500 g (tipo do macarrão a gosto)',
@@ -113,6 +118,7 @@ module.exports = [
     {
       image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/doce.png',
       title: 'Docinhos pão-do-céu',
+      number: '5',
       author: 'Ricardo Golvea',
       ingredients: [
         '1 kg de batata - doce',
@@ -135,6 +141,7 @@ module.exports = [
     {
       image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/burger.png',
       title: 'Triplo bacon burger',
+      number: '0',
       author: 'Jorge Relato',
       ingredients: [
         '3 kg de carne moída (escolha uma carne magra e macia)',
@@ -158,6 +165,7 @@ module.exports = [
     {
       image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/pizza.png',
       title: 'Pizza 4 estações',
+      number: '1',
       author: 'Fabiana Melo',
       ingredients: [
         '1 xícara (chá) de leite',
@@ -185,6 +193,7 @@ module.exports = [
     {
       image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/asinha.png',
       title: 'Asinhas de frango ao barbecue',
+      number: '2',
       author: 'Vania Steroski',
       ingredients: [
         '12 encontros de asinha de galinha, temperados a gosto',
@@ -202,6 +211,7 @@ module.exports = [
     {
       image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/lasanha.png',
       title: "Lasanha mac n' cheese",
+      number: '3',
       author: 'Juliano Vieira',
       ingredients: [
         'massa pronta de lasanha',
@@ -222,6 +232,7 @@ module.exports = [
     {
       image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/macarrao.png',
       title: 'Espaguete ao alho',
+      number: '4',
       author: 'Júlia Kinoto',
       ingredients: [
         '1 pacote de macarrão 500 g (tipo do macarrão a gosto)',
@@ -246,6 +257,7 @@ module.exports = [
     {
       image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/doce.png',
       title: 'Docinhos pão-do-céu',
+      number: '5',
       author: 'Ricardo Golvea',
       ingredients: [
         '1 kg de batata - doce',

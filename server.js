@@ -27,7 +27,7 @@ server.get("/", function(req, res) {
 })  
 
 server.get("/recipes", function(req, res) {
- 
+
     return res.render("recipes", {recipes})
 })
 
