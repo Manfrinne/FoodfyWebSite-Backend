@@ -12,7 +12,7 @@ Dessa vez vamos desenvolver o Backend do Foodfy (o site de uma empresa de receit
   <li>Javascript</li>
   <li>HTML</li>
   <li>CSS</li>
-  <li>Node.js</li>
+  <li>NodeJS</li>
   <li>Nodemon</li>
   <li>Express</li>
   <li>Nunjucks</li>
