@@ -2,7 +2,7 @@
 
 > Nesse desafio vamos refatorar o Foodfy
 
-Dessa vez vamos desenvolver o Backend do Foodfy (o site de uma empresa de receitas). 
+Dessa vez vamos desenvolver o Backend do Foodfy (o site de uma empresa de receitas).
 
 ![](public/showProject.gif)
 
@@ -63,7 +63,7 @@ server.get("/recipes/:index", function (req, res) {
 
 ## Ação de mostrar/esconder
 
-[ ] Dentro da página do detalhe da receita, em cada seção "Ingredientes", "Modo de preparo" e "Informações adicionais" há um botão Mostrar ou Esconder que ao ser clicado deve mostrar ou esconder o texto abaixo do título baseado em seu estado de visibilidade.
+[x] Dentro da página do detalhe da receita, em cada seção "Ingredientes", "Modo de preparo" e "Informações adicionais" há um botão Mostrar ou Esconder que ao ser clicado deve mostrar ou esconder o texto abaixo do título baseado em seu estado de visibilidade.
 
 ## Como contribuir:
 

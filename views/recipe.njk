@@ -25,18 +25,37 @@
     </div>
 
     <div class="uniq_recipe_content">
-        <h3 class="uniq_topics">Ingredientes</h3>
+        <div class="topics">
+            <h3 class="uniq_topics">Ingredientes</h3>
+            <a id="botton_change1">Mostrar</a>
+        </div>
+        <div id="content1">
             {%for ingredient in recipe.ingredients%}
                 <li class="uniq_topics_contet">{{ingredient}}</li>
             {%endfor%}
-        <h3 class="uniq_topics">Modo de preparo</h3>
+        </div>
+    </div>
+    <div class="uniq_recipe_content">
+        <div class="topics">
+            <h3 class="uniq_topics">Modo de Preparo</h3>
+            <a id="botton_change2">Mostrar</a>
+        </div>
+        <div id="content2">
             {%for preparation in recipe.preparation%}
                 <li class="uniq_topics_contet">{{preparation}}</li>
             {%endfor%}
-        <h3 class="uniq_topics">Informações adicionais</h3>  
-            <p class="uniq_topics_contet">{{recipe.information}}</p>     
+        </div>
     </div>
-
+    <div class="uniq_recipe_content">
+        <div class="topics">
+            <h3 class="uniq_topics">Informações adicionais</h3>
+            <a id="botton_change3">Mostrar</a>
+        </div>
+        <div id="content3">
+            <div class="uniq_topics_contet">{{recipe.information}}</div>
+        </div>
+    </div>
+          
 </section>
 
 {% endblock %}
